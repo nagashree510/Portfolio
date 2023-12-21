@@ -1,5 +1,5 @@
 body {
-    background-color:beige;
+    background-color:rgb(252, 250, 251);
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,11 +10,6 @@ body {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: 1fr;
     height: 100vh; /* Set the height as needed */
-}
-
-.grid-item {
-    border: 1px solid #ccc;
-   
 }
 
 img {
