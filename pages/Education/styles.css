@@ -1,0 +1,23 @@
+body {
+    background-color:beige;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    height: 100vh; /* Set the height as needed */
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+   
+}
+
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-height: 100%; /* Ensure the image doesn't exceed its container */
+}

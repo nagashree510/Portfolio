@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.windows-background {
+    background-image: url('assects/windows.jpg'); /* Add the path to your Windows background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* 100% of the viewport height */
+    display: flex;
+    
+   
+   
+}
+.fa-linkedin{
+    font-size: 70px;
+}
+.fa-github{
+    font-size: 70px;
+    color: black;
+}
+
+.fa-folder{
+font-size: 70px;
+color: orange
+
+}
+.grid-container {
+   
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    height: 40vh; /* Set the height as needed */
+    width: 40vh;
+}
+
+p{
+    color: black;
+}
+
+a {
+ text-decoration: none;
+}
+.grid-item {
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    text-align: center;
+}
+
