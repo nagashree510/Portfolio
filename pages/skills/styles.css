@@ -1,7 +1,10 @@
 body {
     background-color:rgb(230, 230, 222);
-    margin: 0;
-    padding: 0;
+    border: 2px solid #000; /* Add a 2px solid black border to the body */
+    padding: 20px;
+
+    margin: 20px;
+   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
